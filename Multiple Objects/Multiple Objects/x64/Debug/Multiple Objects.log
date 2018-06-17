@@ -1,0 +1,17 @@
+﻿Build started 2/5/2016 4:27:17 PM.
+     1>Project "C:\Users\fpang\documents\visual studio 2013\Projects\Multiple Objects\Multiple Objects\Multiple Objects.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\fpang\Documents\opencv\build\include\opencv2 /IC:\Users\fpang\Documents\opencv\build\include\opencv /IC:\Users\fpang\Documents\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(23): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>Source.cpp(113): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Source.cpp(126): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Source.cpp(127): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\fpang\documents\visual studio 2013\Projects\Multiple Objects\x64\Debug\Multiple Objects.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\fpang\Documents\opencv\build\x64\vc12\lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\fpang\documents\visual studio 2013\Projects\Multiple Objects\x64\Debug\Multiple Objects.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\fpang\documents\visual studio 2013\Projects\Multiple Objects\x64\Debug\Multiple Objects.lib" /MACHINE:X64 x64\Debug\Source.obj
+         Multiple Objects.vcxproj -> C:\Users\fpang\documents\visual studio 2013\Projects\Multiple Objects\x64\Debug\Multiple Objects.exe
+     1>Done Building Project "C:\Users\fpang\documents\visual studio 2013\Projects\Multiple Objects\Multiple Objects\Multiple Objects.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.76
